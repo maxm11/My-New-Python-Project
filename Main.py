@@ -1,4 +1,3 @@
-# Hello world python program
 print "Hello!";
 print "Welcome to Max's Tinkering Enviroment for Python."
 print "Just to get familiar with my good looking users..."
@@ -14,9 +13,9 @@ else
 print "ERROR"
 number = rawinput("Enter Number : ")
 
-if number = "10"
+if number = "10":
 print "I agree!!"
-else
+else:
 print "Why a %f, I think you're a 10!" % number
 
 print "That's all I do."
