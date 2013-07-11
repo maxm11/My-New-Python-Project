@@ -32,6 +32,7 @@ setup(
         'Intended Audience :: Developers',
         'Intended Audience :: System Administrators',
         'Intended Audience :: Sexy People',
+        'Intended Audience :: Really Sexy People',
         'License :: GPLv3 License',
         'Operating System MacOS X',
         'Operating System :: POSIX',
