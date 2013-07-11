@@ -1,7 +1,9 @@
 print ("--------------------------------------")
 print (" ")
+
 print ("Hello!")
 print ("Welcome to Max's Tinkering Enviroment for Python!")
+print ("This was coded in Cloud9 Ide, a new cloud IDE.")
 
 print (" ")
 print ("--------------------------------------")
@@ -12,6 +14,7 @@ print ("Just to get familiar with my good looking users...")
 print (" ")
 print ("--------------------------------------")
 print (" ")
+
 ##Name Input
 rawname = raw_input("What is your name? : ")
 name = str(rawname)
@@ -23,6 +26,7 @@ print (name + ", you have the best name I have ever heard!")
 print (" ")
 print ("--------------------------------------")
 print (" ")
+
 ##Gender Input
 print ("Are you a gentleman, or a fine lady?")
 gender = raw_input("Enter 1 if you are a gentleman or Enter 2 if you are a lady [1-2]: ")
@@ -44,6 +48,7 @@ number = raw_input("Enter Number [1-10]: ")
 print (" ")
 print ("--------------------------------------")
 print (" ")
+
 ##Flaterring Response
 if gender == "1":
 	
@@ -68,12 +73,14 @@ else:
 print (" ")
 print ("--------------------------------------")
 print (" ")
+
 ## Ending
 print ("That's all I do.")
 
 print (" ")
 print ("--------------------------------------")
 print (" ")
+
 ##Farewells
 if gender == "1":
 	print("Good Bye, my good man.")
