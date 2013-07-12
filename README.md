@@ -6,4 +6,6 @@ Included Programs
 =====================
 An ummm, Interesting Hello World
 
+A very basic Calculator
+
 Moar to come...
