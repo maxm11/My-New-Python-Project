@@ -7,29 +7,26 @@ print ("Made by Max, licensed under GPLv3")
 print (" ")
 print ("--------------------------------------")
 
-num1 = raw_input ("Please enter your first number here : ")
+num1str = raw_input ("Please enter your first number here : ")
 
 sign = raw_input ("Please enter the operation you want to use [+ - * /]: ")
 
-num2 = raw_input ("Please enter your second number here : ")
+num2str = raw_input ("Please enter your second number here : ")
 
-def calculation( num1, num2, sign)
-{
-    ans = 0
+num1 = int (num1str)
+num2 = int (num2str)
     
-    if sign == "+":
-        num1 + num2 = ans
+if sign == "+":
+    ans = num1 + num2
     
-    if sign == "-":
-        num1 - num2 = ans
+if sign == "-":
+    ans = num1 - num2
     
-    if sign == "*":
-        num1 * num2 = ans
+if sign == "*":
+    ans = num1 * num2
     
-    if sign == "/":
-        num1 / num2 = ans
+if sign == "/":
+    ans = num1 / num2
     
-    return ans
-}
 
-print ("The answer is : " + ans)
+print ("The answer is : "), ans
