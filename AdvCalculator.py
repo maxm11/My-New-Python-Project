@@ -7,18 +7,11 @@ print ("By Max M, licenced under GPLv3")
 print (" ")
 print ("--------------------------------------")
 
-statement = raw_input ("Please enter your mathematical statement [3 3 plus minus times divide]: ")
+print ("The format to use this is as follows.")
+print ("1234")
+num1 = raw_input ("")
 
-strnum1 = statement[:1]
-print ("strnum1 : " + strnum1)
-#num1 = int (strnum1)
 
-strnum2 = statement[:4]
-print ("strnum2 : " + strnum2)
-#num2 = int (strnum2)
-
-operation = statement[5:11]
-print ("operation : " + operation)
 #if operation == "+":
 #	ans = num1 + num2
 
