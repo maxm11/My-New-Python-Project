@@ -18,10 +18,12 @@ print ("--------------------------------------")
 
 ##Start of the Number entering system
 print ("Please enter in the format shown above.")
-num1 = raw_input (":")
+prenum1 = raw_input (":")
 oper = raw_input (":")
-num2 = raw_input (":")
+prenum2 = raw_input (":")
 
+num1 = int(prenum1)
+num2 = int(prenum2)
 
 if oper == "+":
 	ans = num1 + num2
