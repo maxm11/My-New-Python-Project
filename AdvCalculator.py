@@ -28,13 +28,29 @@ num2 = int(prenum2)
 if oper == "+":
 	ans = num1 + num2
 
-if oper == "-":
+elif oper == "-":
 	ans = num1 - num2
 
-if oper == "*":
+elif oper == "*":
 	ans = num1 * num2
 
-if oper == "/":
+elif oper == "/":
 	ans = num1 / num2
+    
+elif oper == ">":
+    if num1 >= num2:
+        ans = "Yes, " + prenum1 + " is > " + prenum2
+    else:
+        ans = "No, " + prenum1 + " is NOT > " + prenum2
+        
+elif oper == "<":
+    if num1 <= num2:
+        ans = "Yes, " + prenum1 + " is < " + prenum2
+    else:
+        ans = "No, " + prenum1 + " is NOT < " + prenum2
 
-print ("The answer is : "), ans
+else:
+    ans = "INVALID OPERATOR"
+    
+print ("-------------------------------------")
+print (":"), ans
