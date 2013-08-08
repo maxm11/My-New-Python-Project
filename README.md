@@ -11,3 +11,10 @@ An ummm, Interesting Hello World
 A very basic Calculator
 
 Moar to come...
+
+Git Hub to Bit Bucket Transition
+=====================
+We are currently releasing all new code on BitBucket,
+the URL is https://bitbucket.org/maxm11/my-new-python-project/
+
+Disregard this repo, as it is obselete and has moved.
